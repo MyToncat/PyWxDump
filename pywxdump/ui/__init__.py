@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-#
 # -------------------------------------------------------------------------------
-# Name:         t2.py
+# Name:         __init__.py.py
 # Description:  
 # Author:       xaoyaoo
-# Date:         2023/10/21
+# Date:         2023/12/03
 # -------------------------------------------------------------------------------
-from pywxdump import get_wx_info, WX_OFFS
+# from .view_chat import app_show_chat, get_user_list, export
 
-
-def test_read_info():
-    result = get_wx_info(WX_OFFS, is_logging=True)  # 读取微信信息
-    assert result is not None
+if __name__ == '__main__':
+    pass
